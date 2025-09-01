@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+
+        .first-contianer {
+            background-image: url("assets/images/kid2.jpg");
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .first-image {
+            background-color: #000000cb;
+            height: 100%;
+            width: 100%;
+        }
+
+        .text {
+            color: white;
+            padding: 40%;
+        }
+
+        .second-section {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+            margin-top: 20px;
+        }
+
+        .logs {
+            padding-top: 20px;
+            margin-top: 50px;
+        }
+
+        .tab {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 85%;
+            outline: white;
+        }
+
+        .logins {
+            padding: 10px;
+            border-bottom: 1px solid black;
+            margin-left: 40px;
+            margin-right: 40px;
+            text-align: left;
+        }
+
+        .btn2 {
+            margin-top: 70px;
+            background-color: rgb(88, 72, 104);
+            color: white;
+            padding: 7px 42%;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
+            margin-right: 40px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .Forggoten {
+            color: #22bd22;
+            text-align: right;
+            float: right;
+            margin-right: 40px;
+            margin-top: 10px;
+        }
+
+        .already {
+            padding-top: 30px;
+        }
+
+        .log {
+            color: #22bd22;
+        }
+
+        .call {
+            padding-top: 20px;
+        }
+
+        .btn {
+            padding: 6px 10px;
+            margin-top: 20px;
+            background-color: #22bd22;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+            .wrapper {
+                width: 100%;
+                height: 80vh;
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .first-contianer {
+                background-image: url("assets/images/kid2.jpg");
+                padding: 10px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                visibility: hidden;
+
+            }
+
+            .first-image {
+                background-color: #000000cb;
+                height: 8px;
+                visibility: hidden;
+            }
+
+            .text {
+                color: white;
+                visibility: hidden;
+
+            }
+
+            .second-section {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+                margin-top: 20px;
+            }
+
+            .logs {
+                padding-top: 20px;
+                margin-top: 50px;
+                margin-left: 30px;
+            }
+
+            .tab {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 100%;
+                outline: white;
+            }
+
+            .logins {
+                padding: 10px;
+                border-bottom: 1px solid black;
+                margin-left: 40px;
+                margin-right: 40px;
+                text-align: left;
+            }
+
+            .btn2 {
+                margin-top: 70px;
+                background-color: rgb(88, 72, 104);
+                color: white;
+                padding: 7px 30%;
+                justify-content: center;
+                align-items: center;
+                margin-left: 40px;
+                margin-right: 40px;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .Forggoten {
+                color: #22bd22;
+                text-align: right;
+                float: right;
+                margin-right: 40px;
+                margin-top: 10px;
+            }
+
+            .already {
+                padding-top: 30px;
+            }
+
+            .log {
+                color: #22bd22;
+            }
+
+            .call {
+                padding-top: 20px;
+                margin-left: 20px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                margin-top: 20px;
+                background-color: #22bd22;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .wrapper {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+            }
+
+            .first-contianer {
+                background-image: url("assets/images/kid2.jpg");
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .first-image {
+                background-color: #000000cb;
+                height: 100%;
+                width: 100%;
+            }
+
+            .text {
+                color: white;
+                padding-top: 80%;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+            .text p {
+                margin-left: 10px;
+                margin-top: 15px;
+                font-size: 0.8rem;
+            }
+
+            .second-section {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+                margin-top: 20px;
+            }
+
+            .logs {
+                padding-top: 20px;
+                margin-top: 50px;
+                margin-left: 30px;
+            }
+
+            .tab {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 85%;
+                outline: white;
+            }
+
+            .logins {
+                padding: 10px;
+                border-bottom: 1px solid black;
+                margin-left: 40px;
+                margin-right: 40px;
+                text-align: left;
+            }
+
+            .btn2 {
+                margin-top: 70px;
+                background-color: rgb(88, 72, 104);
+                color: white;
+                padding: 7px 30%;
+                justify-content: center;
+                align-items: center;
+                margin-left: 40px;
+                margin-right: 40px;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .Forggoten {
+                color: #22bd22;
+                text-align: right;
+                float: right;
+                margin-right: 40px;
+                margin-top: 10px;
+            }
+
+            .already {
+                padding-top: 30px;
+            }
+
+            .log {
+                color: #22bd22;
+            }
+
+            .call {
+                padding-top: 20px;
+                margin-left: 20px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                margin-top: 20px;
+                background-color: #22bd22;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+        }
+
+
+        @media (min-width: 1025px) and (max-width: 1440px) {
+            .wrapper {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+            }
+
+            .first-contianer {
+                background-image: url("assets/images/kid2.jpg");
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .first-image {
+                background-color: #000000cb;
+                height: 100%;
+                width: 100%;
+            }
+
+            .text {
+                color: white;
+                padding: 60%;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .text img {
+                margin-left: 20px;
+            }
+
+            .text p {
+                margin-left: 10px;
+                margin-top: 15px;
+                font-size: 0.8rem;
+            }
+
+            .second-section {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+                margin-top: 20px;
+            }
+
+            .logs {
+                padding-top: 20px;
+                margin-top: 50px;
+
+            }
+
+            .tab {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 85%;
+                outline: white;
+            }
+
+            .logins {
+                padding: 10px;
+                border-bottom: 1px solid black;
+                margin-left: 40px;
+                margin-right: 40px;
+                text-align: left;
+            }
+
+            .btn2 {
+                margin-top: 70px;
+                background-color: rgb(88, 72, 104);
+                color: white;
+                padding: 7px 42%;
+                justify-content: center;
+                align-items: center;
+                margin-left: 40px;
+                margin-right: 40px;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .Forggoten {
+                color: #22bd22;
+                text-align: right;
+                float: right;
+                margin-right: 40px;
+                margin-top: 10px;
+            }
+
+            .already {
+                padding-top: 30px;
+            }
+
+            .log {
+                color: #22bd22;
+            }
+
+            .call {
+                padding-top: 20px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                margin-top: 20px;
+                background-color: #22bd22;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <div class="first-contianer">
+            <div class="first-image">
+                <div class="text">
+                    <img src="assets/images/second-logo-removebg-preview.png" alt="" width="50px">
+                    <h2>PPSMB Enugu State</h2>
+                    <p>School Management Portal</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="logo">
+                <img src="assets/images/ppsmb.jpg" alt="">
+                <h3>PPSMB Enugu State</h3>
+                <p>Create Portal Account</p>
+            </div>
+            <div class="logs">
+                <form action="/action_page.php">
+                    <input class="tab" type="Email" id="phone" name="Email" placeholder="Email Address">
+                    <input class="tab" type="password" id="phone" name="password" placeholder="Password">
+                </form>
+            </div>
+            <form action="nextpage2.html">
+                <a href="nextpage2.html" class="Forggoten"> Forgot-password</a>
+            </form>
+            <div class="last-stage">
+                <div class="reg">
+                    <button type="submit" class="btn2">Login</button>
+                    <p class="already"> Already have a PPSMB Account? <a href="index.html" class="log">Register</a></p>
+                    <p class="call">Support: <a href="#" class="log">08102466010 or 09043094163</a></p>
+                    <button type="submit" class="btn">
+                        Check Result
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

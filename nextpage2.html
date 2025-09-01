@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .first-contianer {
+
+            background-image: url("assets/images/kid2.jpg");
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .first-image {
+            background-color: #000000dc;
+            height: 100vh;
+        }
+
+        .text {
+            color: white;
+            padding-top: 40%;
+
+
+        }
+
+        .second-section {
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .logins {
+            margin-top: 50px;
+            text-align: left;
+            border-bottom: 1px solid black;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .reg {
+            padding-top: 20px;
+        }
+
+        .btn2 {
+            margin-top: 20px;
+            background-color: rgb(23, 36, 46);
+            border-radius: 5px;
+            color: white;
+            border: none;
+            padding: 8px 36%;
+        }
+
+        .already {
+            padding-top: 30px;
+        }
+
+        .log {
+            color: #09b812;
+        }
+
+        .boder {
+            padding-top: 40px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 80%;
+            text-align: left;
+            outline: none;
+        }
+
+        .form {
+            margin-top: 40px;
+        }
+
+        .fist {
+            float: left;
+            margin-left: 40px;
+        }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+            .wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+
+
+            }
+
+            .first-contianer {
+
+                background-image: url("assets/images/kid2.jpg");
+                background-repeat: no-repeat;
+                visibility: hidden;
+                height: 5px;
+
+            }
+
+            .first-image {
+                background-color: #000000dc;
+                visibility: hidden;
+                height: 5px;
+
+            }
+
+            .text {
+                color: white;
+                margin-left: 50px;
+                visibility: hidden;
+            }
+
+            .second-section {
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                float: top;
+            }
+
+            .logo {
+                margin-right: 90px;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+
+            }
+
+            .logins {
+                margin-top: 50px;
+                text-align: left;
+                border-bottom: 1px solid black;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .reg {
+                padding-top: 20px;
+                margin-right: 20%;
+            }
+
+            .btn2 {
+                margin-top: 40px;
+                background-color: rgb(88, 72, 104);
+                color: white;
+                padding: 7px 20px;
+                margin: 0 40px;
+                border: none;
+                border-radius: 5px;
+                font-size: 0.8rem;
+                cursor: pointer;
+                text-align: center;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+
+            }
+
+            .btn2:hover {
+                background-color: rgb(102, 17, 187);
+                transform: scale(1.05);
+            }
+
+            .already {
+                padding-top: 20px;
+                margin-right: 1px;
+
+            }
+
+            .log {
+                color: #09b812;
+                padding-top: 19px;
+                gap: 0;
+            }
+
+            .boder {
+                padding-top: 30px;
+                border: none;
+                border-bottom: 1px solid gray;
+                width: 100%;
+                text-align: left;
+                outline: none;
+            }
+
+            .form {
+                margin-top: 40px;
+            }
+
+            .fist {
+                float: left;
+                margin-left: 40px;
+            }
+        }
+
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .wrapper {
+                display: flex;
+                width: 100%;
+                height: 100vh;
+            }
+
+            .first-contianer {
+                width: 100%;
+                background-image: url("assets/images/kid2.jpg");
+                background-repeat: no-repeat;
+                height: 100vh;
+                background-size: cover;
+            }
+
+            .first-image {
+                background-color: #000000dc;
+                height: 100vh;
+                justify-content: start;
+            }
+
+            .text {
+                color: white;
+                padding-top: 80%;
+
+            }
+
+
+
+            .second-section {
+                width: 100%;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .logins {
+                margin-top: 50px;
+                text-align: left;
+                border-bottom: 1px solid black;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .reg {
+                padding-top: 20px;
+            }
+
+            .btn2 {
+                margin-top: 20px;
+                background-color: rgb(23, 36, 46);
+                border-radius: 5px;
+                color: white;
+                border: none;
+                padding: 5px 20%;
+            }
+
+            .already {
+                padding-top: 30px;
+            }
+
+            .log {
+                color: #09b812;
+            }
+
+            .boder {
+                padding-top: 40px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 80%;
+                text-align: left;
+                outline: none;
+            }
+
+            .form {
+                margin-top: 40px;
+            }
+
+            .fist {
+
+                margin-left: 40px;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1440px) {
+            .wrapper {
+                display: flex;
+                width: 100%;
+                height: 100vh;
+            }
+
+            .first-contianer {
+                width: 100%;
+                background-image: url("assets/images/kid2.jpg");
+                background-repeat: no-repeat;
+                height: 100vh;
+                background-size: cover;
+            }
+
+            .first-image {
+                background-color: #000000dc;
+                height: 100vh;
+                justify-content: start;
+            }
+
+            .text {
+                color: white;
+                padding-top: 40%;
+                margin-left: 50px;
+            }
+
+            .text p {
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+
+            .second-section {
+                width: 100%;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .logins {
+                margin-top: 50px;
+                text-align: left;
+                border-bottom: 1px solid black;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .reg {
+                padding-top: 20px;
+            }
+
+            .btn2 {
+                margin-top: 20px;
+                background-color: rgb(23, 36, 46);
+                border-radius: 5px;
+                color: white;
+                border: none;
+                padding: 8px 40%;
+            }
+
+            .already {
+                padding-top: 30px;
+            }
+
+            .log {
+                color: #09b812;
+            }
+
+            .boder {
+                padding-top: 40px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 80%;
+                text-align: left;
+                outline: none;
+            }
+
+            .form {
+                margin-top: 40px;
+            }
+
+            .fist {
+                float: left;
+                margin-left: 40px;
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <div class="first-contianer">
+            <div class="first-image">
+                <div class="text">
+                    <img src="assets/images/second-logo-removebg-preview.png" alt="" width="50px">
+                    <h2>PPSMB Enugu State</h2>
+                    <p>School Management Portal</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="logo">
+                <img src="assets/images/ppsmb.jpg" alt="">
+                <h3>PPSMB Enugu State</h3>
+                <p>Recover Password</p>
+            </div>
+            <form class="form" action="/action_page.php">
+                <input class="boder" type="email" placeholder="Email Address" name="email">
+            </form>
+            <div class="reg">
+                <button type="submit" class="btn2">Send Token</button>
+                <p class="already"> Already have a Portal Account?
+                    <a href="nextpage1.html" class="log"> Login</a>
+                </p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1005 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.mian-section {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.first-contianer {
+  background-image: url("assets/images/kid2.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-image {
+  background-color: #000000ea;
+  height: 100vh;
+  justify-content: start;
+}
+.text {
+  color: white;
+  padding-top: 40%;
+  margin-left: 60px;
+}
+.second-section {
+  width: 100%;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+.pin4 {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.pin {
+  display: flex;
+  margin-top: 20px;
+  gap: 40%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: 1px solid darkgray;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.button {
+  background-color: #12ee12f1;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 2px 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pin2 {
+  border: none;
+  border-bottom: 1px solid darkgrey;
+  width: 89%;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 6px;
+  outline: none;
+}
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tab {
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  border: none;
+  width: 83%;
+  border-bottom: 1px solid darkgrey;
+  color: darkgray;
+  outline: none;
+}
+.tab2 {
+  padding: 20pxpx;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  border: none;
+  width: 89%;
+
+  border-bottom: gray;
+}
+.pin3 {
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  color: darkgray;
+  text-align: left;
+  width: 90%;
+  outline: none;
+}
+.tabll {
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+  width: 79%;
+  outline: none;
+}
+.tabss {
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  color: darkgray;
+  text-align: left;
+  width: 80%;
+  outline: none;
+}
+.table2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.reg {
+  text-align: center;
+  display: grid;
+  gap: 40pxpx;
+}
+.already {
+  text-align: center;
+  padding: 30px;
+}
+.log {
+  color: rgb(75, 194, 39);
+}
+.call {
+  color: rgb(75, 194, 39);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.btn {
+  padding: 8px 10px;
+  margin-top: 20px;
+  background-color: #12ee12f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn2 {
+  text-align: center;
+  background-color: rgb(5, 5, 71);
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px 42%;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tabul {
+  border: none;
+  border-bottom: 1px solid gray;
+  color: gray;
+  width: 85%;
+  margin-top: 40px;
+  margin-left: 40px;
+  outline: none;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .mian-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+  }
+
+  .first-contianer {
+    background-image: url("assets/images/kid2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: hidden;
+  }
+  .first-image {
+    background-color: #000000ea;
+    height: 10px;
+    justify-content: start;
+    visibility: hidden;
+  }
+  .text {
+    color: white;
+    padding-top: 30%;
+    margin-left: 60px;
+    font-size: 0.5rem;
+  }
+  .second-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+  }
+  .pin4 {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .pin {
+    display: flex;
+    margin-top: 20px;
+    gap: 40%;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+  }
+  .button {
+    background-color: #138f13ec;
+    color: #faf9f9;
+    font-size: 0.8rem;
+    border: none;
+    padding: 8px 20px;
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .pin2 {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    width: 100%;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 6px;
+    outline: none;
+    font-size: 1rem;
+  }
+  .table {
+    display: block;
+    grid-template-columns: 1fr;
+
+    margin-right: 5px;
+  }
+  .tab {
+    padding: 20px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tab2 {
+    padding: 20px;
+    text-align: left;
+    border: none;
+
+    font-size: 1rem;
+  }
+  .pin3 {
+    padding: 20px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 92%;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tabll {
+    padding: 20px;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tabss {
+    padding: 20px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+  }
+  .table2 {
+    display: block;
+    grid-template-columns: 1fr;
+  }
+  .reg {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .already {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding-bottom: 30px;
+  }
+  .log {
+    color: rgb(75, 194, 39);
+  }
+  .call {
+    color: rgb(75, 194, 39);
+    margin-left: 70px;
+    font-size: 0.8rem;
+  }
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #138f13ec;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 90px;
+  }
+  .btn2 {
+    background-color: rgb(5, 5, 71);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn2 p {
+    float: left;
+    text-align: left;
+  }
+  .tabul {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    width: 100%;
+    outline: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mian-section {
+    width: 100%;
+    display: flex;
+
+    height: 80vh;
+  }
+
+  .first-contianer {
+    background-image: url("assets/images/kid2.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .first-image {
+    background-color: #000000ea;
+    height: 80vh;
+    justify-content: start;
+  }
+  .text {
+    color: white;
+    padding-top: 80%;
+    margin-left: 60px;
+    font-size: 1rem;
+  }
+  .second-section {
+    width: 50%;
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .pin4 {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .pin {
+    display: flex;
+    margin-top: 20px;
+    gap: 40%;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .button {
+    background-color: #138f13ec;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    padding: 8px 7px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .pin2 {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    width: 95%;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 6px;
+    outline: none;
+    font-size: 1rem;
+  }
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .tab {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tab2 {
+    padding: 20pxpx;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 89%;
+    font-size: 1rem;
+    border-bottom: gray;
+  }
+  .pin3 {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 90%;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tabll {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 79%;
+    outline: none;
+    font-size: 1rem;
+  }
+  .tabss {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 80%;
+    font-size: 1rem;
+    outline: none;
+  }
+  .table2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reg {
+    text-align: center;
+    display: grid;
+    gap: 0px;
+  }
+  .already {
+    text-align: center;
+  }
+  .log {
+    color: rgb(75, 194, 39);
+  }
+  .call {
+    color: rgb(75, 194, 39);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .btn {
+    display: block; /* Makes button a block element */
+    margin: 20px auto; /* Centers horizontally */
+    padding: 10px 20px; /* Balanced padding */
+    background-color: #138f13ec;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    background-color: rgb(5, 5, 71);
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabul {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    outline: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .mian-section {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+  }
+
+  .first-contianer {
+    background-image: url("assets/images/kid2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .first-image {
+    background-color: #000000ea;
+    height: 100vh;
+    justify-content: start;
+  }
+  .text {
+    color: white;
+    padding-top: 40%;
+    margin-left: 60px;
+  }
+  .second-section {
+    width: 100%;
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .pin4 {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .pin {
+    display: flex;
+    margin-top: 20px;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .button {
+    background-color: #138f13ec;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: none;
+    padding: 2px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .pin2 {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    width: 89%;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 4px;
+    outline: none;
+  }
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .tab {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 83%;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    outline: none;
+  }
+  .tab2 {
+    padding: 20pxpx;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 89%;
+
+    border-bottom: gray;
+  }
+  .pin3 {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 90%;
+    outline: none;
+  }
+  .tabll {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 79%;
+    outline: none;
+  }
+  .tabss {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 80%;
+    outline: none;
+  }
+  .table2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reg {
+    text-align: center;
+    display: grid;
+    gap: 40px;
+  }
+  .already {
+    text-align: center;
+    padding: 30px;
+  }
+  .log {
+    color: rgb(75, 194, 39);
+  }
+  .call {
+    color: rgb(75, 194, 39);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #138f13ec;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn2 {
+    text-align: center;
+    background-color: rgb(5, 5, 71);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 42%;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tabul {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    outline: none;
+  }
+}
+@media (min-width: 1441px) {
+  .mian-section {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+  }
+
+  .first-contianer {
+    background-image: url("assets/images/kid2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .first-image {
+    background-color: #000000ea;
+    height: 100vh;
+    justify-content: start;
+  }
+  .text {
+    color: white;
+    padding-top: 40%;
+    margin-left: 60px;
+  }
+  .second-section {
+    width: 100%;
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .pin4 {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .pin {
+    display: flex;
+    margin-top: 20px;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .button {
+    background-color: #138f13ec;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: none;
+    padding: 2px 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .pin2 {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    width: 89%;
+    color: darkgray;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 4px;
+    outline: none;
+  }
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .tab {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 83%;
+    border-bottom: 1px solid darkgrey;
+    color: darkgray;
+    outline: none;
+  }
+  .tab2 {
+    padding: 20pxpx;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    width: 89%;
+
+    border-bottom: gray;
+  }
+  .pin3 {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 90%;
+    outline: none;
+  }
+  .tabll {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    width: 79%;
+    outline: none;
+  }
+  .tabss {
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    text-align: left;
+    width: 80%;
+    outline: none;
+  }
+  .table2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reg {
+    text-align: center;
+    display: grid;
+    gap: 40px;
+  }
+  .already {
+    text-align: center;
+    padding: 30px;
+  }
+  .log {
+    color: rgb(75, 194, 39);
+  }
+  .call {
+    color: rgb(75, 194, 39);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #138f13ec;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn2 {
+    text-align: center;
+    background-color: rgb(5, 5, 71);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 42%;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tabul {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    outline: none;
+  }
+}
